@@ -4,8 +4,8 @@ import "./globals.css";
 
 const poppins = Poppins({
   subsets: ["latin"],
-  weight:  ["900","200","100"],
-  style: "normal"
+  weight: ["900", "200", "100"],
+  style: "normal",
 });
 
 export const metadata: Metadata = {
@@ -20,7 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.className}`}>{children}</body>
+      <body className={`${poppins.className} bg-[#f3f3f3]`}>
+        <div className="mx-auto max-w-[1500px]">{children}</div>
+      </body>
     </html>
   );
 }
