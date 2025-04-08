@@ -3,7 +3,7 @@ import backgroundImg from "../../public/prado.png";
 
 export default function Hero() {
   return (
-    <section className="mt-[25%] md:h-[90dvh] flex justify-between items-center max-w-[1500px] mx-auto relative">
+    <section className="mt-[25%] md:h-[90dvh] flex flex-col md:flex-row justify-between items-center max-w-[1500px] mx-auto relative px-4">
       <div className="flex flex-col gap-3 md:gap-15 items-center">
         <h1 className="text-lightBlack font-semibold text-4xl md:text-8xl text-center">
           Ride in Style <br />
@@ -19,15 +19,18 @@ export default function Hero() {
           Ride Now
         </button>
       </div>
-      <Image
-        src={backgroundImg}
-        alt="prado"
-        style={{ objectFit: "cover" }}
-        quality={100}
-        priority={true}
-        placeholder="blur"
-        className="absolute md:right-10 -bottom-[100%] md:bottom-15 -z-10"
-      />
+
+      <div className="mt-8 md:mt-0 md:absolute md:right-10 md:bottom-15 md:-z-10">
+        <Image
+          src={backgroundImg}
+          alt="prado"
+          style={{ objectFit: "cover" }}
+          quality={100}
+          priority={true}
+          placeholder="blur"
+          className="w-full max-w-xs md:max-w-xl"
+        />
+      </div>
     </section>
   );
 }
