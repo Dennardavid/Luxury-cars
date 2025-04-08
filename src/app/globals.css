@@ -3,8 +3,9 @@
 @theme {
   --color-lightBlack: #111111;
   --color-mainWhite: #f3f3f3;
+  --color-gold: #d4af37;
 }
 
-* {
+/* * {
   border: 1px solid red;
-}
+} */

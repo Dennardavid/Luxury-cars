@@ -3,19 +3,19 @@ import backgroundImg from "../../public/prado.png";
 
 export default function Hero() {
   return (
-    <section className="h-[90dvh] flex justify-between items-center max-w-[1500px] mx-auto">
-      <div className="flex flex-col gap-15">
-        <h1 className="text-lightBlack font-semibold text-8xl">
+    <section className="h-[80vh] md:h-[90dvh] flex justify-between items-center max-w-[1500px] mx-auto">
+      <div className="flex flex-col gap-3 md:gap-15 items-center">
+        <h1 className="text-lightBlack font-semibold text-4xl md:text-8xl text-center">
           Ride in Style <br />
           Ride in Luxury
         </h1>
-        <p className="text-xl w-[46%] font-normal">
+        <p className="text-xs md:text-lg w-[90%] md:w-[45%] font-normal text-center">
           Experience the thrill of riding in elegance. Whether it's a night out,
           a business trip, or a weekend escape, our fleet of luxury cars is
           ready to elevate your journey. Indulge in comfort, and prestige
           because you deserve nothing less.
         </p>
-        <button className="p-3 bg-lightBlack text-mainWhite rounded-full w-64 font-medium text-xl">
+        <button className="p-1 md:p-2 bg-lightBlack text-mainWhite rounded-full w-50 md:w-64 font-medium text-sm md:text-xl hover:cursor-pointer border-1 border-gold">
           Ride Now
         </button>
       </div>
@@ -26,7 +26,7 @@ export default function Hero() {
         quality={100}
         priority={true}
         placeholder="blur"
-        className="absolute right-10 bottom-15 -z-20"
+        className="absolute md:right-10 bottom-15 -z-20"
       />
     </section>
   );
