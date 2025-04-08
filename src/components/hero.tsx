@@ -28,7 +28,6 @@ export default function Hero() {
           quality={100}
           priority={true}
           placeholder="blur"
-          className="w-full max-w-xs md:max-w-xl"
         />
       </div>
     </section>
