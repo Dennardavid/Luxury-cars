@@ -20,8 +20,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.className} bg-[#f3f3f3]`}>
-        <div className="mx-auto max-w-[1500px]">{children}</div>
+      <body className={`${poppins.className} bg-mainWhite`}>
+        <div className="mx-auto">{children}</div>
       </body>
     </html>
   );

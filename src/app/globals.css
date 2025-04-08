@@ -1,7 +1,10 @@
 @import "tailwindcss";
 
+@theme {
+  --color-lightBlack: #111111;
+  --color-mainWhite: #f3f3f3;
+}
 
-/* *{
+* {
   border: 1px solid red;
 }
- */

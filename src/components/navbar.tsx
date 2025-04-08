@@ -3,10 +3,8 @@ import { FiMenu } from "react-icons/fi";
 
 export default function Header() {
   return (
-    <header
-      className="z-20 pt-6.5 flex justify-center !transition-all !duration-100"
-    >
-      <nav className="flex fixed justify-between items-center w-full max-w-[1500px] backdrop-blur-2xl bg-[#111111]/98 p-3.5 rounded-full shadow-md">
+    <header className="z-20 pt-6.5 flex justify-center !transition-all !duration-100">
+      <nav className="flex fixed justify-between items-center w-full max-w-[1500px] backdrop-blur-2xl bg-lightBlack p-3.5 rounded-full shadow-md">
         <Link href={"/"} className="text-2xl">
           Logo
         </Link>
