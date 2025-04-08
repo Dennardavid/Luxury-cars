@@ -3,7 +3,7 @@ import backgroundImg from "../../public/prado.png";
 
 export default function Hero() {
   return (
-    <section className="md:h-[90dvh] flex justify-between items-center max-w-[1500px] mx-auto">
+    <section className="mt-[25%] md:h-[90dvh] flex justify-between items-center max-w-[1500px] mx-auto">
       <div className="flex flex-col gap-3 md:gap-15 items-center">
         <h1 className="text-lightBlack font-semibold text-4xl md:text-8xl text-center">
           Ride in Style <br />
