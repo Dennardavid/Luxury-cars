@@ -26,7 +26,7 @@ export default function Hero() {
         quality={100}
         priority={true}
         placeholder="blur"
-        className="absolute md:right-10 md:bottom-15 -z-10"
+        className="absolute md:right-10 bottom-[10%] md:bottom-15 -z-10"
       />
     </section>
   );
