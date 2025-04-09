@@ -27,7 +27,6 @@ export default function Hero() {
           style={{ objectFit: "cover" }}
           quality={100}
           priority={true}
-          placeholder="blur"
         />
       </div>
     </section>
