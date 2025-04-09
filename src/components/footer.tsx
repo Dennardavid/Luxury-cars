@@ -38,7 +38,7 @@ export default function Footer() {
             </Link>
           </div>
         </section>
-        <section className="flex flex-col md:flex-row md:justify-between mt-7">
+        <section className="flex flex-col-reverse md:flex-row md:justify-between mt-7">
           <p className="text-center">&#169; {year} All Right Reserved </p>
           <div className="flex flex-row justify-center mb-1.5">
             <Link
