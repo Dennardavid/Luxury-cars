@@ -4,7 +4,7 @@ import "./globals.css";
 
 const poppins = Poppins({
   subsets: ["latin"],
-  weight: ["900", "200", "100"],
+  weight: ["900", "200", "100", "300", "400", "500", "600", "700", "800"],
   style: "normal",
 });
 
@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.className} bg-mainWhite`}>
+      <body className={`${poppins.className} bg-mainWhite text-lightBlack`}>
         <div className="mx-auto">{children}</div>
       </body>
     </html>

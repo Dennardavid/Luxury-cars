@@ -1,5 +1,5 @@
-import Header from "@/components/navbar";
-import Footer from "@/components/footer";
+import Header from "@/components/ui/navbar";
+import Footer from "@/components/ui/footer";
 
 export default function Template({
   children,
