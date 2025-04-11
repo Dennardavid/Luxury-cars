@@ -15,7 +15,7 @@ export default function Hero() {
           ready to elevate your journey. Indulge in comfort, and prestige
           because you deserve nothing less.
         </p>
-        <button className="p-1 lg:p-2 bg-lightBlack text-mainWhite rounded-full w-50 lg:w-64 font-light text-sm lg:text-xl hover:cursor-pointer border-1 border-gold">
+        <button className="p-1 lg:p-2 bg-lightBlack text-mainWhite rounded-full w-50 lg:w-64 font-light text-sm lg:text-xl hover:cursor-pointer border border-gold">
           Ride Now
         </button>
       </div>
